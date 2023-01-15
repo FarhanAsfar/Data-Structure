@@ -1,1 +1,3 @@
-having issues with 'git push' 
+having issues with 'git push'
+
+'git push' issue solved.  
