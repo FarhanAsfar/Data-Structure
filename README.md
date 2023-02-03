@@ -1,2 +1,2 @@
 # Data-Structure
-DS resources and codes
+Data Structure resources and codes
