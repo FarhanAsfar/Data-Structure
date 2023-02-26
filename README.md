@@ -1,2 +1,2 @@
-# Data-Structure
-Data Structure problems and solutions
+## Data-Structure
+Data Structure problems and solutions.
