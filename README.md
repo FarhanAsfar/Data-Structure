@@ -1,2 +1,2 @@
 ## Data-Structure
-Data Structure problems and solutions.
+This repository will contain Data Structure problems and solutions.
