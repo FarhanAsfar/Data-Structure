@@ -49,25 +49,7 @@ void insertionAtBeginning()
 		head = f;
 	}
 }
-void insertAtEnd()
-{
-	Node *newnode, *temp;
-	newnode = new Node();
-	cin>>newnode->data;
-	newnode->next = NULL;
 
-	if(head==NULL){
-		head=newnode;
-		tail=newnode;
-	}else{
-		temp=head;
-		while(temp->next != NULL){
-			temp = temp->next;
-		}
-		temp->next=newnode;
-		tail=newnode;
-	}
-}
 void insertAtPosition()
 {
 	int pos;
@@ -195,7 +177,6 @@ int main()
         cout<<"\t\tLinked List Menu"<<"\n\n";
 		cout<<"1    Create Linked List"<<"\n";
 		cout<<"2    Insert node at the beginning of Linked List"<<"\n";
-		cout<<"3    Insert node at the end of Linked List"<<"\n";
 		cout<<"4    Insert node at any position of Linked List"<<"\n";
 		cout<<"5    Delete node from beginning of Linked List"<<"\n";
 		cout<<"6    Delete node from last position of Linked List"<<"\n";
@@ -215,10 +196,7 @@ int main()
 				insertionAtBeginning();
 				display();cout<<"\n";
 				break;
-			case 3:
-				insertAtEnd();
-				display();cout<<"\n";
-				break;
+			
 			case 4:
 				insertAtPosition();
 				display();cout<<"\n";
