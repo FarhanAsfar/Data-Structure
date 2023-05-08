@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-struct Node
-{
+struct Node{
 	int data;
 	Node *next;
 };
@@ -33,6 +32,7 @@ void create()
 		}
 	}
 }
+
 void insertionAtBeginning()
 {
 	Node *temp,*f;
@@ -49,6 +49,7 @@ void insertionAtBeginning()
 		head = f;
 	}
 }
+
 void insertAtEnd()
 {
 	Node *newnode, *temp;
@@ -68,6 +69,7 @@ void insertAtEnd()
 		tail=newnode;
 	}
 }
+
 void insertAtPosition()
 {
 	int pos;
@@ -90,6 +92,7 @@ void insertAtPosition()
 		newnode->next = temp;
 	}
 }
+
 void delFirstNode()
 {
 	Node *temp;
@@ -98,6 +101,7 @@ void delFirstNode()
 
 	free(temp);
 }
+
 void delLastNode()
 {
 	Node *temp, *temp1;
@@ -111,6 +115,7 @@ void delLastNode()
 		delete(temp);
 	}
 }
+
 void delParticularNode()
 {
 	Node *temp1, *temp;
@@ -130,6 +135,7 @@ void delParticularNode()
 		}
 	}
 }
+
 void reverseList()
 {
 	Node *temp, *t1, *t2;
@@ -152,6 +158,7 @@ void reverseList()
 		}*/
 	}
 }
+
 void removeDuplicate()
 {
 	Node *t1, *t2, *dup;
@@ -170,6 +177,7 @@ void removeDuplicate()
 		t1 = t1->next;
 	}
 }
+
 void display()
 {
 	Node *temp;
@@ -183,10 +191,11 @@ void display()
 
 int main()
 {
-	#ifndef ONLINE_JUDGE
+	/*#ifndef ONLINE_JUDGE
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
 	#endif
+	*/
 
 	int select;
 
